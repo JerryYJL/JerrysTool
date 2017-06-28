@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C481AFCD1F03A05000917264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFCC1F03A05000917264 /* main.m */; };
+		C481AFD01F03A05000917264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFCF1F03A05000917264 /* AppDelegate.m */; };
+		C481AFD31F03A05000917264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFD21F03A05000917264 /* ViewController.m */; };
+		C481AFD61F03A05000917264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C481AFD41F03A05000917264 /* Main.storyboard */; };
+		C481AFD81F03A05000917264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C481AFD71F03A05000917264 /* Assets.xcassets */; };
+		C481AFDB1F03A05000917264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C481AFD91F03A05000917264 /* LaunchScreen.storyboard */; };
+		C481AFE61F03A05000917264 /* JerrysToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFE51F03A05000917264 /* JerrysToolTests.m */; };
+		C481AFF11F03A05000917264 /* JerrysToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFF01F03A05000917264 /* JerrysToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C481AFE21F03A05000917264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C481AFC01F03A05000917264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C481AFC71F03A05000917264;
+			remoteInfo = JerrysTool;
+		};
+		C481AFED1F03A05000917264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C481AFC01F03A05000917264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C481AFC71F03A05000917264;
+			remoteInfo = JerrysTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C481AFC81F03A05000917264 /* JerrysTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JerrysTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C481AFCC1F03A05000917264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C481AFCE1F03A05000917264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C481AFCF1F03A05000917264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C481AFD11F03A05000917264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C481AFD21F03A05000917264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C481AFD51F03A05000917264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C481AFD71F03A05000917264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C481AFDA1F03A05000917264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C481AFDC1F03A05000917264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C481AFE11F03A05000917264 /* JerrysToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerrysToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C481AFE51F03A05000917264 /* JerrysToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JerrysToolTests.m; sourceTree = "<group>"; };
+		C481AFE71F03A05000917264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C481AFEC1F03A05000917264 /* JerrysToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerrysToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C481AFF01F03A05000917264 /* JerrysToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JerrysToolUITests.m; sourceTree = "<group>"; };
+		C481AFF21F03A05000917264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C481AFC51F03A05000917264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFDE1F03A05000917264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFE91F03A05000917264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C481AFBF1F03A05000917264 = {
+			isa = PBXGroup;
+			children = (
+				C481AFCA1F03A05000917264 /* JerrysTool */,
+				C481AFE41F03A05000917264 /* JerrysToolTests */,
+				C481AFEF1F03A05000917264 /* JerrysToolUITests */,
+				C481AFC91F03A05000917264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C481AFC91F03A05000917264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C481AFC81F03A05000917264 /* JerrysTool.app */,
+				C481AFE11F03A05000917264 /* JerrysToolTests.xctest */,
+				C481AFEC1F03A05000917264 /* JerrysToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C481AFCA1F03A05000917264 /* JerrysTool */ = {
+			isa = PBXGroup;
+			children = (
+				C481AFCE1F03A05000917264 /* AppDelegate.h */,
+				C481AFCF1F03A05000917264 /* AppDelegate.m */,
+				C481AFD11F03A05000917264 /* ViewController.h */,
+				C481AFD21F03A05000917264 /* ViewController.m */,
+				C481AFD41F03A05000917264 /* Main.storyboard */,
+				C481AFD71F03A05000917264 /* Assets.xcassets */,
+				C481AFD91F03A05000917264 /* LaunchScreen.storyboard */,
+				C481AFDC1F03A05000917264 /* Info.plist */,
+				C481AFCB1F03A05000917264 /* Supporting Files */,
+			);
+			path = JerrysTool;
+			sourceTree = "<group>";
+		};
+		C481AFCB1F03A05000917264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C481AFCC1F03A05000917264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C481AFE41F03A05000917264 /* JerrysToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				C481AFE51F03A05000917264 /* JerrysToolTests.m */,
+				C481AFE71F03A05000917264 /* Info.plist */,
+			);
+			path = JerrysToolTests;
+			sourceTree = "<group>";
+		};
+		C481AFEF1F03A05000917264 /* JerrysToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C481AFF01F03A05000917264 /* JerrysToolUITests.m */,
+				C481AFF21F03A05000917264 /* Info.plist */,
+			);
+			path = JerrysToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C481AFC71F03A05000917264 /* JerrysTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C481AFF51F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysTool" */;
+			buildPhases = (
+				C481AFC41F03A05000917264 /* Sources */,
+				C481AFC51F03A05000917264 /* Frameworks */,
+				C481AFC61F03A05000917264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JerrysTool;
+			productName = JerrysTool;
+			productReference = C481AFC81F03A05000917264 /* JerrysTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C481AFE01F03A05000917264 /* JerrysToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C481AFF81F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolTests" */;
+			buildPhases = (
+				C481AFDD1F03A05000917264 /* Sources */,
+				C481AFDE1F03A05000917264 /* Frameworks */,
+				C481AFDF1F03A05000917264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C481AFE31F03A05000917264 /* PBXTargetDependency */,
+			);
+			name = JerrysToolTests;
+			productName = JerrysToolTests;
+			productReference = C481AFE11F03A05000917264 /* JerrysToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C481AFEB1F03A05000917264 /* JerrysToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C481AFFB1F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolUITests" */;
+			buildPhases = (
+				C481AFE81F03A05000917264 /* Sources */,
+				C481AFE91F03A05000917264 /* Frameworks */,
+				C481AFEA1F03A05000917264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C481AFEE1F03A05000917264 /* PBXTargetDependency */,
+			);
+			name = JerrysToolUITests;
+			productName = JerrysToolUITests;
+			productReference = C481AFEC1F03A05000917264 /* JerrysToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C481AFC01F03A05000917264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jerry;
+				TargetAttributes = {
+					C481AFC71F03A05000917264 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9A8Y75JA44;
+						ProvisioningStyle = Automatic;
+					};
+					C481AFE01F03A05000917264 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9A8Y75JA44;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C481AFC71F03A05000917264;
+					};
+					C481AFEB1F03A05000917264 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9A8Y75JA44;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C481AFC71F03A05000917264;
+					};
+				};
+			};
+			buildConfigurationList = C481AFC31F03A05000917264 /* Build configuration list for PBXProject "JerrysTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C481AFBF1F03A05000917264;
+			productRefGroup = C481AFC91F03A05000917264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C481AFC71F03A05000917264 /* JerrysTool */,
+				C481AFE01F03A05000917264 /* JerrysToolTests */,
+				C481AFEB1F03A05000917264 /* JerrysToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C481AFC61F03A05000917264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481AFDB1F03A05000917264 /* LaunchScreen.storyboard in Resources */,
+				C481AFD81F03A05000917264 /* Assets.xcassets in Resources */,
+				C481AFD61F03A05000917264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFDF1F03A05000917264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFEA1F03A05000917264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C481AFC41F03A05000917264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481AFD31F03A05000917264 /* ViewController.m in Sources */,
+				C481AFD01F03A05000917264 /* AppDelegate.m in Sources */,
+				C481AFCD1F03A05000917264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFDD1F03A05000917264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481AFE61F03A05000917264 /* JerrysToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C481AFE81F03A05000917264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481AFF11F03A05000917264 /* JerrysToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C481AFE31F03A05000917264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C481AFC71F03A05000917264 /* JerrysTool */;
+			targetProxy = C481AFE21F03A05000917264 /* PBXContainerItemProxy */;
+		};
+		C481AFEE1F03A05000917264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C481AFC71F03A05000917264 /* JerrysTool */;
+			targetProxy = C481AFED1F03A05000917264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C481AFD41F03A05000917264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C481AFD51F03A05000917264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C481AFD91F03A05000917264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C481AFDA1F03A05000917264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C481AFF31F03A05000917264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C481AFF41F03A05000917264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C481AFF61F03A05000917264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C481AFF71F03A05000917264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C481AFF91F03A05000917264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JerrysTool.app/JerrysTool";
+			};
+			name = Debug;
+		};
+		C481AFFA1F03A05000917264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JerrysTool.app/JerrysTool";
+			};
+			name = Release;
+		};
+		C481AFFC1F03A05000917264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JerrysTool;
+			};
+			name = Debug;
+		};
+		C481AFFD1F03A05000917264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9A8Y75JA44;
+				INFOPLIST_FILE = JerrysToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JerrysTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C481AFC31F03A05000917264 /* Build configuration list for PBXProject "JerrysTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481AFF31F03A05000917264 /* Debug */,
+				C481AFF41F03A05000917264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C481AFF51F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481AFF61F03A05000917264 /* Debug */,
+				C481AFF71F03A05000917264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C481AFF81F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481AFF91F03A05000917264 /* Debug */,
+				C481AFFA1F03A05000917264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C481AFFB1F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C481AFFC1F03A05000917264 /* Debug */,
+				C481AFFD1F03A05000917264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C481AFC01F03A05000917264 /* Project object */;
+}
