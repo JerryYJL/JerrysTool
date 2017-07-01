@@ -15,6 +15,10 @@
 		C481AFDB1F03A05000917264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C481AFD91F03A05000917264 /* LaunchScreen.storyboard */; };
 		C481AFE61F03A05000917264 /* JerrysToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFE51F03A05000917264 /* JerrysToolTests.m */; };
 		C481AFF11F03A05000917264 /* JerrysToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFF01F03A05000917264 /* JerrysToolUITests.m */; };
+		C481B0061F03A54C00917264 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B0051F03A54C00917264 /* NSString+Regular.m */; };
+		C48FEB941F0497FE00DCD834 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */; };
+		C48FEB971F04D8F300DCD834 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */; };
+		C4B00F6A1F06519A0014ACC7 /* NSDictionary+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		C481AFEC1F03A05000917264 /* JerrysToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerrysToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C481AFF01F03A05000917264 /* JerrysToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JerrysToolUITests.m; sourceTree = "<group>"; };
 		C481AFF21F03A05000917264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C481B0041F03A54C00917264 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
+		C481B0051F03A54C00917264 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
+		C48FEB921F0497FE00DCD834 /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		C48FEB951F04D8F300DCD834 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		C4B00F681F06519A0014ACC7 /* NSDictionary+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Regular.h"; sourceTree = "<group>"; };
+		C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Regular.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				C481AFCF1F03A05000917264 /* AppDelegate.m */,
 				C481AFD11F03A05000917264 /* ViewController.h */,
 				C481AFD21F03A05000917264 /* ViewController.m */,
+				C481B0041F03A54C00917264 /* NSString+Regular.h */,
+				C481B0051F03A54C00917264 /* NSString+Regular.m */,
+				C48FEB921F0497FE00DCD834 /* NSString+Encryption.h */,
+				C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */,
+				C48FEB951F04D8F300DCD834 /* NSData+Encryption.h */,
+				C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */,
+				C4B00F681F06519A0014ACC7 /* NSDictionary+Regular.h */,
+				C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */,
 				C481AFD41F03A05000917264 /* Main.storyboard */,
 				C481AFD71F03A05000917264 /* Assets.xcassets */,
 				C481AFD91F03A05000917264 /* LaunchScreen.storyboard */,
@@ -277,8 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C481AFD31F03A05000917264 /* ViewController.m in Sources */,
+				C48FEB971F04D8F300DCD834 /* NSData+Encryption.m in Sources */,
+				C48FEB941F0497FE00DCD834 /* NSString+Encryption.m in Sources */,
 				C481AFD01F03A05000917264 /* AppDelegate.m in Sources */,
+				C481B0061F03A54C00917264 /* NSString+Regular.m in Sources */,
 				C481AFCD1F03A05000917264 /* main.m in Sources */,
+				C4B00F6A1F06519A0014ACC7 /* NSDictionary+Regular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +540,7 @@
 				C481AFF71F03A05000917264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C481AFF81F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				C481AFFA1F03A05000917264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C481AFFB1F03A05000917264 /* Build configuration list for PBXNativeTarget "JerrysToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				C481AFFD1F03A05000917264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
