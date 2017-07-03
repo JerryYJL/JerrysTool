@@ -96,4 +96,11 @@
  *字符串转字典
  */
 -(NSDictionary *)stringToDictionary;
+/**
+ *替换字符串
+ * noNeedString : 需要被替代的字符串
+ * replacingString : 替代的字符串
+ */
+-(NSString *)replaceStringWithNoNeedString:(NSString *)noNeedString replacingString:(NSString *)replacingString;
+
 @end

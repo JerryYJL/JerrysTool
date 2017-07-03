@@ -15,10 +15,13 @@
 		C481AFDB1F03A05000917264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C481AFD91F03A05000917264 /* LaunchScreen.storyboard */; };
 		C481AFE61F03A05000917264 /* JerrysToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFE51F03A05000917264 /* JerrysToolTests.m */; };
 		C481AFF11F03A05000917264 /* JerrysToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C481AFF01F03A05000917264 /* JerrysToolUITests.m */; };
-		C481B0061F03A54C00917264 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C481B0051F03A54C00917264 /* NSString+Regular.m */; };
-		C48FEB941F0497FE00DCD834 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */; };
-		C48FEB971F04D8F300DCD834 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */; };
-		C4B00F6A1F06519A0014ACC7 /* NSDictionary+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */; };
+		C49A8BC41F0779C20030CF9E /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BBD1F0779C20030CF9E /* NSData+Encryption.m */; };
+		C49A8BC51F0779C20030CF9E /* NSDictionary+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BBF1F0779C20030CF9E /* NSDictionary+Regular.m */; };
+		C49A8BC61F0779C20030CF9E /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BC11F0779C20030CF9E /* NSString+Encryption.m */; };
+		C49A8BC71F0779C20030CF9E /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BC31F0779C20030CF9E /* NSString+Regular.m */; };
+		C49A8BCB1F077F1B0030CF9E /* GetDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BCA1F077F1B0030CF9E /* GetDeviceInfo.m */; };
+		C49A8BCF1F0787E50030CF9E /* ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BCE1F0787E50030CF9E /* ActivityIndicatorView.m */; };
+		C49A8BD31F0793CE0030CF9E /* PullDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A8BD21F0793CE0030CF9E /* PullDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +58,20 @@
 		C481AFEC1F03A05000917264 /* JerrysToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerrysToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C481AFF01F03A05000917264 /* JerrysToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JerrysToolUITests.m; sourceTree = "<group>"; };
 		C481AFF21F03A05000917264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C481B0041F03A54C00917264 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
-		C481B0051F03A54C00917264 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
-		C48FEB921F0497FE00DCD834 /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
-		C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
-		C48FEB951F04D8F300DCD834 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
-		C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
-		C4B00F681F06519A0014ACC7 /* NSDictionary+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Regular.h"; sourceTree = "<group>"; };
-		C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Regular.m"; sourceTree = "<group>"; };
+		C49A8BBC1F0779C20030CF9E /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		C49A8BBD1F0779C20030CF9E /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		C49A8BBE1F0779C20030CF9E /* NSDictionary+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Regular.h"; sourceTree = "<group>"; };
+		C49A8BBF1F0779C20030CF9E /* NSDictionary+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Regular.m"; sourceTree = "<group>"; };
+		C49A8BC01F0779C20030CF9E /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		C49A8BC11F0779C20030CF9E /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		C49A8BC21F0779C20030CF9E /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
+		C49A8BC31F0779C20030CF9E /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
+		C49A8BC91F077F1B0030CF9E /* GetDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDeviceInfo.h; sourceTree = "<group>"; };
+		C49A8BCA1F077F1B0030CF9E /* GetDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDeviceInfo.m; sourceTree = "<group>"; };
+		C49A8BCD1F0787E50030CF9E /* ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorView.h; sourceTree = "<group>"; };
+		C49A8BCE1F0787E50030CF9E /* ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorView.m; sourceTree = "<group>"; };
+		C49A8BD11F0793CE0030CF9E /* PullDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownMenu.h; sourceTree = "<group>"; };
+		C49A8BD21F0793CE0030CF9E /* PullDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,18 +122,14 @@
 		C481AFCA1F03A05000917264 /* JerrysTool */ = {
 			isa = PBXGroup;
 			children = (
+				C49A8BD01F0792FA0030CF9E /* JerryPullDownMenu */,
+				C49A8BCC1F07870E0030CF9E /* ActivityIndicator */,
+				C49A8BC81F077D8E0030CF9E /* GetDeviceInfo */,
+				C49A8BBB1F0779C20030CF9E /* category */,
 				C481AFCE1F03A05000917264 /* AppDelegate.h */,
 				C481AFCF1F03A05000917264 /* AppDelegate.m */,
 				C481AFD11F03A05000917264 /* ViewController.h */,
 				C481AFD21F03A05000917264 /* ViewController.m */,
-				C481B0041F03A54C00917264 /* NSString+Regular.h */,
-				C481B0051F03A54C00917264 /* NSString+Regular.m */,
-				C48FEB921F0497FE00DCD834 /* NSString+Encryption.h */,
-				C48FEB931F0497FE00DCD834 /* NSString+Encryption.m */,
-				C48FEB951F04D8F300DCD834 /* NSData+Encryption.h */,
-				C48FEB961F04D8F300DCD834 /* NSData+Encryption.m */,
-				C4B00F681F06519A0014ACC7 /* NSDictionary+Regular.h */,
-				C4B00F691F06519A0014ACC7 /* NSDictionary+Regular.m */,
 				C481AFD41F03A05000917264 /* Main.storyboard */,
 				C481AFD71F03A05000917264 /* Assets.xcassets */,
 				C481AFD91F03A05000917264 /* LaunchScreen.storyboard */,
@@ -158,6 +163,48 @@
 				C481AFF21F03A05000917264 /* Info.plist */,
 			);
 			path = JerrysToolUITests;
+			sourceTree = "<group>";
+		};
+		C49A8BBB1F0779C20030CF9E /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C49A8BBC1F0779C20030CF9E /* NSData+Encryption.h */,
+				C49A8BBD1F0779C20030CF9E /* NSData+Encryption.m */,
+				C49A8BBE1F0779C20030CF9E /* NSDictionary+Regular.h */,
+				C49A8BBF1F0779C20030CF9E /* NSDictionary+Regular.m */,
+				C49A8BC01F0779C20030CF9E /* NSString+Encryption.h */,
+				C49A8BC11F0779C20030CF9E /* NSString+Encryption.m */,
+				C49A8BC21F0779C20030CF9E /* NSString+Regular.h */,
+				C49A8BC31F0779C20030CF9E /* NSString+Regular.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		C49A8BC81F077D8E0030CF9E /* GetDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C49A8BC91F077F1B0030CF9E /* GetDeviceInfo.h */,
+				C49A8BCA1F077F1B0030CF9E /* GetDeviceInfo.m */,
+			);
+			path = GetDeviceInfo;
+			sourceTree = "<group>";
+		};
+		C49A8BCC1F07870E0030CF9E /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C49A8BCD1F0787E50030CF9E /* ActivityIndicatorView.h */,
+				C49A8BCE1F0787E50030CF9E /* ActivityIndicatorView.m */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		C49A8BD01F0792FA0030CF9E /* JerryPullDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C49A8BD11F0793CE0030CF9E /* PullDownMenu.h */,
+				C49A8BD21F0793CE0030CF9E /* PullDownMenu.m */,
+			);
+			path = JerryPullDownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +344,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C481AFD31F03A05000917264 /* ViewController.m in Sources */,
-				C48FEB971F04D8F300DCD834 /* NSData+Encryption.m in Sources */,
-				C48FEB941F0497FE00DCD834 /* NSString+Encryption.m in Sources */,
+				C49A8BCF1F0787E50030CF9E /* ActivityIndicatorView.m in Sources */,
 				C481AFD01F03A05000917264 /* AppDelegate.m in Sources */,
-				C481B0061F03A54C00917264 /* NSString+Regular.m in Sources */,
 				C481AFCD1F03A05000917264 /* main.m in Sources */,
-				C4B00F6A1F06519A0014ACC7 /* NSDictionary+Regular.m in Sources */,
+				C49A8BC51F0779C20030CF9E /* NSDictionary+Regular.m in Sources */,
+				C49A8BC61F0779C20030CF9E /* NSString+Encryption.m in Sources */,
+				C49A8BC41F0779C20030CF9E /* NSData+Encryption.m in Sources */,
+				C49A8BD31F0793CE0030CF9E /* PullDownMenu.m in Sources */,
+				C49A8BCB1F077F1B0030CF9E /* GetDeviceInfo.m in Sources */,
+				C49A8BC71F0779C20030CF9E /* NSString+Regular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9A8Y75JA44;
 				INFOPLIST_FILE = JerrysTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9A8Y75JA44;
 				INFOPLIST_FILE = JerrysTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jerry.com.JerrysTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

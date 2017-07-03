@@ -192,7 +192,10 @@
     
 }
 
-
+#pragma mark ---- 替换字符串 ----
+-(NSString *)replaceStringWithNoNeedString:(NSString *)noNeedString replacingString:(NSString *)replacingString{
+    return [self stringByReplacingOccurrencesOfString:noNeedString withString:replacingString];
+}
 
 
 
